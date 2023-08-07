@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Distinguishes between links and pages */
+#pages {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Visited links */
+a:visited {
+  color: #007bff; /* Set the same color as unvisited links */
+  text-decoration: none; /* Remove the underline for visited links */
+}
+
+.content {
+  padding: 50px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Home Page Styles */
+.hero {
+  padding: 100px;
+  text-align: center;
+}
+
+/* My Research Page Styles */
+.content.research {
+  background-color: #333;
+  color: #fff;
+}
+
+/* My Organizations Page Styles */
+.content.organizations {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Contact Info Page Styles */
+.content.contact {
+  background-color: #333;
+  color: #fff;
+}
+
+/* My Interests Page Styles */
+.content.interests {
+  background-color: #222;
+  color: #fff;
+}
+
+/* CSS styles for the bulleted list */
+ul {
+  list-style-type: square; /* Change the bullet style to squares */
+  margin-left: 30px; /* Add some left margin to the list */
+}
+
+.button-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 600px; /* Set a maximum width for the buttons container */
+  margin: 20px auto; /* Center the buttons horizontally */
+}
+
+.button-list li {
+  margin-bottom: 10px; /* Set the vertical margin between each button */
+}
+
+.button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #444;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show an ellipsis for overflowing text */
+}
+
+.button:hover {
+  background-color: #555;
+}
